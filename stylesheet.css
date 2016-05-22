@@ -16,7 +16,7 @@ body {
 }
 .profile-div {
 	border: solid 4px;
-	background: none;
+	background: purple;
 	width: 70px;
 }
 .btn-group dropup {
@@ -31,9 +31,9 @@ body {
 	position: auto;
 }
 .wrapper {
-	background: none;
+	background: purple;
 	border: blue solid;
-	height: 1000px;
+	height: 500px;
 }
 .dropdown {
 	position: auto;
