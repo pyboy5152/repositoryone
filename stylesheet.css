@@ -57,7 +57,9 @@ body {
 }
 #chat {
 	border: blue 4px solid;
+	border-radius: 20px;
 }
 #chatinner {
 	border: blue 4px solid;
+	border-radius: 20px;
 }
