@@ -23,4 +23,7 @@ body {
 	position: absolute;
 	right: 0;
 	bottom: 0;
+	color: pink;
+	border: solid 4px;
 }
+
