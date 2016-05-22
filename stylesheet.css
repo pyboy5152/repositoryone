@@ -23,7 +23,7 @@ body {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	color: pink;
+	background: pink;
 	border: solid 4px;
 }
 .wrapper {
