@@ -15,5 +15,7 @@ body {
 	background-color: grey;
 	border: 4px solid purple;
 	border-radius: 16px;
-
+	font-family: Courier;
+	font-size: 10px;
+	color: white;
 }
