@@ -2,3 +2,11 @@ body {
 	font-size: 0.8em;
 	font-family: arial, sans-serif;
 }
+.header {
+	border: solid 4px;
+	background: none
+
+}
+#default-pic {
+
+}
