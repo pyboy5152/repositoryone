@@ -2,3 +2,12 @@ body {
 	font-size: 0.8em;
 	font-family: arial, sans-serif;
 }
+.title-bar {
+	background-color: blue;
+	border: 4px solid purple;
+	border-radius: 16px;
+	padding: 15px;
+	font-family: Courier;
+	font-size: 15px;
+	color: white;
+}
