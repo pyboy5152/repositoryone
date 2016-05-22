@@ -12,5 +12,10 @@ body {
 	height: auto;
 }
 .profile-name {
-
+	color: blue;
+}
+.profile-div {
+	border: solid 4px;
+	background: grey;
+	width: 65px;
 }
