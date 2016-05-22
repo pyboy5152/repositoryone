@@ -19,7 +19,7 @@ body {
 	background: grey;
 	width: 70px;
 }
-.mdl_buttonmdl-js-buttonmdl-button--fabmdl-button--colored {
+#plusbutton {
 	position: fixed;
 	right: 0;
 	bottom: 0;
@@ -30,4 +30,19 @@ body {
 	background: grey;
 	border: blue solid;
 	height: 1000px;
+}
+#toggle2 {
+	border:solid 2px black;
+	width: 100px;
+	background: white;
+}
+#toggle3 {
+	border: solid 2px black;
+	width: 100px;
+	background: white;
+}
+#toggle4 {
+	border: solid 2px black;
+	width: 100px;
+	background: white;
 }

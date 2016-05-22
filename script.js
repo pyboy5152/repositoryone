@@ -1,5 +1,8 @@
 $(document).ready(function() {
-  $("#plusbutton").keydown(function() {
-    $(this).
+  $("#plusbutton").mouseenter(function() {
+    $(this).fadeTo("fast", 1);
+  });
+  $("#plusbutton").mouseLeave(function() {
+    $(this).fadeTo("Fast", 0.5);
   });
 });
