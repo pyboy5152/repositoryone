@@ -17,5 +17,10 @@ body {
 .profile-div {
 	border: solid 4px;
 	background: grey;
-	width: 65px;
+	width: 70px;
+}
+.mdl_buttonmdl-js-buttonmdl-button--fabmdl-button--colored {
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
