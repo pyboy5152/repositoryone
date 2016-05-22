@@ -33,7 +33,7 @@ body {
 .wrapper {
 	background: none;
 	border: blue solid;
-	height: 500px;
+	height: 300px;
 }
 .dropdown {
 	position: auto;
