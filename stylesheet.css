@@ -1,11 +1,11 @@
 body {
 	font-size: 0.8em;
-	font-family: Monospace;
+	font-family: Monospace red;
 }
 .header {
 	border: solid 4px;
 	background: none
-	font-family: Monospace;
+	font-family: Monospace red;
 }
 #default-pic {
 	width: 50px;
@@ -16,14 +16,14 @@ body {
 }
 .profile-div {
 	border: solid 4px;
-	background: purple;
+	background: none;
 	width: 70px;
 }
 .btn-group dropup {
 	position: auto;
 	right: 0;
 	bottom: 0;
-	background: pink;
+	background: none;
 	border: solid 4px;
 }
 .btn-group {
@@ -31,7 +31,7 @@ body {
 	position: auto;
 }
 .wrapper {
-	background: purple;
+	background: none;
 	border: blue solid;
 	height: 500px;
 }
@@ -43,7 +43,7 @@ body {
 }
 #Title-div {
 	border: blue 4px solid;
-  background: skyblue;
+  background: none;
 	width: 400px;
 	border-radius: 20px;
 }
@@ -51,4 +51,7 @@ body {
 	border: grey 4px solid;
 	background: none;
 	border-radius: 30px
+}
+#Title {
+	font-family: Monospace red;
 }
