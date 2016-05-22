@@ -44,7 +44,7 @@ body {
 #Title-div {
 	border: blue 4px solid;
   background: none;
-	width: 400px;
+	width: 300px;
 	border-radius: 20px;
 }
 #mottodiv {
@@ -54,4 +54,10 @@ body {
 }
 #Title {
 	font-family: Monospace red;
+}
+#chat {
+	border: blue 4px solid;
+}
+#chatinner {
+	border: blue 4px solid;
 }
