@@ -45,4 +45,10 @@ body {
 	border: blue 4px solid;
   background: skyblue;
 	width: 400px;
+	border-radius: 20px;
+}
+#mottodiv {
+	border: grey 4px solid;
+	background: none;
+	border-radius: 30px
 }
