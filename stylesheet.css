@@ -20,7 +20,7 @@ body {
 	width: 70px;
 }
 .mdl_buttonmdl-js-buttonmdl-button--fabmdl-button--colored {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	color: pink;
@@ -29,4 +29,5 @@ body {
 .wrapper {
 	background: grey;
 	border: blue solid;
+	height: 1000px;
 }

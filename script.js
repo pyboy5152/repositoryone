@@ -1,3 +1,9 @@
 $(document).ready(function() {
-  $("mdl-buttonmdl-js-buttonmdl-button--fabmdl-button--colored").
+  $("#plus-button").hover(function() {
+    $(this).addClass('active');
+  },
+    function() {
+    $(this).removeClass('active');
+  }
+  );
 });
