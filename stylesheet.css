@@ -26,4 +26,7 @@ body {
 	color: pink;
 	border: solid 4px;
 }
-
+.wrapper {
+	background: grey;
+	border: blue solid;
+}
