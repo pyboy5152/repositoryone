@@ -1,6 +1,6 @@
 body {
 	font-size: 0.8em;
-	font-family: arial, sans-serif;
+	font-family: Monospace;
 }
 .header {
 	border: solid 4px;
@@ -25,6 +25,10 @@ body {
 	bottom: 0;
 	background: pink;
 	border: solid 4px;
+}
+.btn-group {
+	color: blue;
+	position: auto;
 }
 .wrapper {
 	background: grey;
