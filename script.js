@@ -5,4 +5,7 @@ $(document).ready(function() {
   $("#plusbutton").mouseLeave(function() {
     $(this).fadeTo("Fast", 0.5);
   });
+  $('#toggle2').click(function() {
+
+  });
 });
