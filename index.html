@@ -14,10 +14,20 @@
 	<body>
 	<div class="wrapper">
 		<div class="header">
-			<!-- Colored FAB button -->
-		<button  id="plusbutton">
-			<i class="material-icons">add</i>
-		</button>
+		<!-- Split button -->
+		<div class="btn-group">
+			<button type="button" class="btn btn-danger">Create</button>
+			<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="caret"></span>
+				<span class="sr-only">Toggle Dropdown</span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">New Code</a></li>
+				<li><a href="#">New Software</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+			</ul>
+		</div>
 		<!-- Accent-colored raised button with ripple -->
 		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 			Login
@@ -28,44 +38,22 @@
 			</style>
 			SignUp
 		</button>
-			<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Create
+			<!-- Split button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Explore</button>
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
   </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+  <ul class="dropdown-menu">
+    <li><a href="#">Software</a></li>
     <li><a href="#">Code</a></li>
-    <li><a href="#">Software</a></li>
-		<li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-	</div>
-	<br>
-	<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Explore
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#"></a>Code</li>
-    <li><a href="#">Software</a></li>
-   	<li role="separator" class="divider"></li>
-    <li><a href="#">Separated link</a></li>
-  </ul>
-</div>
-			<br>
-	<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Dropdown
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
+    <li><a href="#">Other Users</a></li>
     <li role="separator" class="divider"></li>
     <li><a href="#">Separated link</a></li>
   </ul>
 </div>
+
 			<br>
 			<h1 id="Title">BitForge.com</h1>
 		</div>
